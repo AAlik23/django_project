@@ -11,8 +11,8 @@ from django.db import models
 # 'car.apps.CarConfig',
 # 'user.apps.UserConfig'
 # pr4
-# makemigration
-# migrate
+#  python manage.py makemigrations myfirstapp
+# python manage.py migrate myfirstapp
 class pr5_student(models.Model):
     styear = (
         ('F','Freshman'),
